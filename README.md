@@ -6,7 +6,7 @@ Codebase for the first challenge due March 9th. This projects about refactoring 
 
 
 ## Link to GitHub Pages
-Click [here] (https://carloscastilloflores.github.io/march9th-challenge/) to go to my website. 
+Click [here](https://carloscastilloflores.github.io/march9th-challenge/) to go to my website. 
 
 
 ## User Story
