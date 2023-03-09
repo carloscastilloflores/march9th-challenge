@@ -6,6 +6,7 @@
 
 body {
     background-color: #d9dcd6;
+    font-size: 16px;
 }
 
 .header {
@@ -24,7 +25,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +33,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -53,9 +54,15 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
+section img{
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    object-fit: cover;
+    background-position: center;
+
 }
+/* moved the image to the html file in order to apply accessibility description (alt)
 
 .hero {
     height: 800px;
@@ -65,8 +72,10 @@ p {
     background-size: cover;
     background-position: center;
 }
-img {
+}*/
+.content article img { 
     max-height: 200px;
+    width: auto;
 }
 .float-left {
     float: left;
@@ -83,7 +92,7 @@ img {
     display: inline-block;
     margin-left: 20px;
 }
-.content div{
+.content article{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -104,7 +113,7 @@ img {
     background-color: #2589bd;
 
 }
-.benefits div{
+.benefits article{
     margin-bottom: 32px;
 }
 
@@ -114,7 +123,7 @@ img {
     max-width: 150px;
 }
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -126,7 +135,7 @@ img {
 }
 
 /*Here theres an issue, they have the same properties and could be simplified
-the problem is: ¿how can i keep the margin-bottom property applied?
+the problem is: ¿how can I keep the margin-bottom property applied?
 Added the color property to the benefits class and specified in the .benefits div
 class that there would be a margin bottom of 32px. 
 
