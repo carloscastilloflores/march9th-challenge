@@ -7,7 +7,6 @@
 body {
     background-color: #d9dcd6;
     font-size: 16px;
-    font-size: 16px;
 }
 
 .header {
@@ -61,9 +60,6 @@ section img{
     margin-bottom: 25px;
     object-fit: cover;
     background-position: center;
-
-}
-/* moved the image to the html file in order to apply accessibility description (alt)
 
 }
 /* moved the image to the html file in order to apply accessibility description (alt)
@@ -191,6 +187,7 @@ to the images that are in that class).
 */
 /* Instead of having each class I created a class that specifies all div's elements 
 in the content class (.content div). 
+
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
