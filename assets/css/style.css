@@ -165,7 +165,8 @@ avoiding repetition.
 }
 */
 
-/* Simplified it by 
+/* Simplified it by specifing it by the name .benefit img (because it only applies
+to the images that are in that class). 
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -185,7 +186,7 @@ avoiding repetition.
 }
 */
 /* Instead of having each class I created a class that specifies all div's elements 
-in the content class. 
+in the content class (.content div). 
 
 .search-engine-optimization {
     margin-bottom: 20px;
